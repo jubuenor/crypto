@@ -24,10 +24,10 @@ def split_text(text, m):
     text = [text[i:i+m] for i in range(0, len(text), m)]
     return ' '.join(text)
 
-plain_text = input("Enter the plain text: ")
-k = int(input("Enter the value of k: "))
-m = int(input("Enter the value of m: "))
-mode = input("Enter the mode (encrypt/decrypt): ")
+plain_text = "hmwnxytumjw" #input("Enter the plain text: ")
+k = 5 # int(input("Enter the value of k: "))
+m = 5 # int(input("Enter the value of m: "))
+mode = "decrypt" # input("Enter the mode (encrypt/decrypt): ")
 
 
 plain_text = split_text(plain_text, m)
